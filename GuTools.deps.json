@@ -1,12 +1,12 @@
 {
   "runtimeTarget": {
-    "name": ".NETCoreApp,Version=v7.0/win-x64",
+    "name": ".NETCoreApp,Version=v7.0/win-x86",
     "signature": ""
   },
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v7.0": {},
-    ".NETCoreApp,Version=v7.0/win-x64": {
+    ".NETCoreApp,Version=v7.0/win-x86": {
       "GuTools/1.0.0": {
         "dependencies": {
           "CommunityToolkit.Mvvm": "8.2.1",
@@ -14,14 +14,14 @@
           "Microsoft.Extensions.DependencyInjection": "7.0.0",
           "Microsoft.Xaml.Behaviors.Wpf": "1.1.39",
           "Newtonsoft.Json": "13.0.3",
-          "runtimepack.Microsoft.NETCore.App.Runtime.win-x64": "7.0.11",
-          "runtimepack.Microsoft.WindowsDesktop.App.Runtime.win-x64": "7.0.11"
+          "runtimepack.Microsoft.NETCore.App.Runtime.win-x86": "7.0.11",
+          "runtimepack.Microsoft.WindowsDesktop.App.Runtime.win-x86": "7.0.11"
         },
         "runtime": {
           "GuTools.dll": {}
         }
       },
-      "runtimepack.Microsoft.NETCore.App.Runtime.win-x64/7.0.11": {
+      "runtimepack.Microsoft.NETCore.App.Runtime.win-x86/7.0.11": {
         "runtime": {
           "Microsoft.CSharp.dll": {
             "assemblyVersion": "7.0.0.0",
@@ -685,7 +685,7 @@
           }
         },
         "native": {
-          "Microsoft.DiaSymReader.Native.amd64.dll": {
+          "Microsoft.DiaSymReader.Native.x86.dll": {
             "fileVersion": "14.29.30152.0"
           },
           "System.IO.Compression.Native.dll": {
@@ -715,7 +715,7 @@
           "mscordaccore.dll": {
             "fileVersion": "7.0.1123.42427"
           },
-          "mscordaccore_amd64_amd64_7.0.1123.42427.dll": {
+          "mscordaccore_x86_x86_7.0.1123.42427.dll": {
             "fileVersion": "7.0.1123.42427"
           },
           "mscordbi.dll": {
@@ -729,7 +729,7 @@
           }
         }
       },
-      "runtimepack.Microsoft.WindowsDesktop.App.Runtime.win-x64/7.0.11": {
+      "runtimepack.Microsoft.WindowsDesktop.App.Runtime.win-x86/7.0.11": {
         "runtime": {
           "Accessibility.dll": {
             "assemblyVersion": "4.0.0.0",
@@ -1025,12 +1025,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "runtimepack.Microsoft.NETCore.App.Runtime.win-x64/7.0.11": {
+    "runtimepack.Microsoft.NETCore.App.Runtime.win-x86/7.0.11": {
       "type": "runtimepack",
       "serviceable": false,
       "sha512": ""
     },
-    "runtimepack.Microsoft.WindowsDesktop.App.Runtime.win-x64/7.0.11": {
+    "runtimepack.Microsoft.WindowsDesktop.App.Runtime.win-x86/7.0.11": {
       "type": "runtimepack",
       "serviceable": false,
       "sha512": ""
@@ -1079,126 +1079,126 @@
     }
   },
   "runtimes": {
-    "win-x64": [
+    "win-x86": [
       "win",
       "any",
       "base"
     ],
-    "win-x64-aot": [
+    "win-x86-aot": [
       "win-aot",
-      "win-x64",
+      "win-x86",
       "win",
       "aot",
       "any",
       "base"
     ],
-    "win10-x64": [
+    "win10-x86": [
       "win10",
-      "win81-x64",
+      "win81-x86",
       "win81",
-      "win8-x64",
+      "win8-x86",
       "win8",
-      "win7-x64",
+      "win7-x86",
       "win7",
-      "win-x64",
+      "win-x86",
       "win",
       "any",
       "base"
     ],
-    "win10-x64-aot": [
+    "win10-x86-aot": [
       "win10-aot",
-      "win10-x64",
+      "win10-x86",
       "win10",
-      "win81-x64-aot",
+      "win81-x86-aot",
       "win81-aot",
-      "win81-x64",
+      "win81-x86",
       "win81",
-      "win8-x64-aot",
+      "win8-x86-aot",
       "win8-aot",
-      "win8-x64",
+      "win8-x86",
       "win8",
-      "win7-x64-aot",
+      "win7-x86-aot",
       "win7-aot",
-      "win7-x64",
+      "win7-x86",
       "win7",
-      "win-x64-aot",
+      "win-x86-aot",
       "win-aot",
-      "win-x64",
+      "win-x86",
       "win",
       "aot",
       "any",
       "base"
     ],
-    "win7-x64": [
+    "win7-x86": [
       "win7",
-      "win-x64",
+      "win-x86",
       "win",
       "any",
       "base"
     ],
-    "win7-x64-aot": [
+    "win7-x86-aot": [
       "win7-aot",
-      "win7-x64",
+      "win7-x86",
       "win7",
-      "win-x64-aot",
+      "win-x86-aot",
       "win-aot",
-      "win-x64",
+      "win-x86",
       "win",
       "aot",
       "any",
       "base"
     ],
-    "win8-x64": [
+    "win8-x86": [
       "win8",
-      "win7-x64",
+      "win7-x86",
       "win7",
-      "win-x64",
+      "win-x86",
       "win",
       "any",
       "base"
     ],
-    "win8-x64-aot": [
+    "win8-x86-aot": [
       "win8-aot",
-      "win8-x64",
+      "win8-x86",
       "win8",
-      "win7-x64-aot",
+      "win7-x86-aot",
       "win7-aot",
-      "win7-x64",
+      "win7-x86",
       "win7",
-      "win-x64-aot",
+      "win-x86-aot",
       "win-aot",
-      "win-x64",
+      "win-x86",
       "win",
       "aot",
       "any",
       "base"
     ],
-    "win81-x64": [
+    "win81-x86": [
       "win81",
-      "win8-x64",
+      "win8-x86",
       "win8",
-      "win7-x64",
+      "win7-x86",
       "win7",
-      "win-x64",
+      "win-x86",
       "win",
       "any",
       "base"
     ],
-    "win81-x64-aot": [
+    "win81-x86-aot": [
       "win81-aot",
-      "win81-x64",
+      "win81-x86",
       "win81",
-      "win8-x64-aot",
+      "win8-x86-aot",
       "win8-aot",
-      "win8-x64",
+      "win8-x86",
       "win8",
-      "win7-x64-aot",
+      "win7-x86-aot",
       "win7-aot",
-      "win7-x64",
+      "win7-x86",
       "win7",
-      "win-x64-aot",
+      "win-x86-aot",
       "win-aot",
-      "win-x64",
+      "win-x86",
       "win",
       "aot",
       "any",
